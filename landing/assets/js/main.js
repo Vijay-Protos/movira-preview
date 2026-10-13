@@ -1,5 +1,5 @@
-// Set before launch: real WhatsApp number (digits only, with country code).
-const MOVIRA = { whatsapp: "91XXXXXXXXXX" };
+// Movira Group WhatsApp number (digits only, with country code).
+const MOVIRA = { whatsapp: "917051436555" };
 
 document.querySelectorAll("[data-wa]").forEach((a) => {
   a.href = `https://wa.me/${MOVIRA.whatsapp}?text=${encodeURIComponent(a.dataset.wa)}`;

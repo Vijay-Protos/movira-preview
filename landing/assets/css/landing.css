@@ -147,6 +147,10 @@ h1, h2, h3, h4 { text-wrap: balance; }
 body.modal-open .mobile-cta { display: none; }
 
 /* Mobile bottom bar has 2 buttons here */
-.mobile-cta { grid-template-columns: repeat(2, 1fr); }
+.mobile-cta { grid-template-columns: repeat(3, 1fr); }
 .mobile-cta a:nth-child(2) { color: #0f7a40; }
 @media (max-width: 991.98px) { body { padding-bottom: 72px; } .lp-nav .btn { padding: .55rem 1.1rem; } }
+
+.lp-call { align-items: center; gap: 8px; margin-left: auto; margin-right: 16px; font-weight: 700; color: var(--mv-navy); text-decoration: none; padding: .5rem .8rem; border-radius: 999px; }
+.lp-call:hover { background: var(--mv-soft); color: var(--mv-navy); } .lp-call svg { width: 18px; height: 18px; color: var(--mv-teal-dark); }
+.lp-links { margin-right: 0; }
